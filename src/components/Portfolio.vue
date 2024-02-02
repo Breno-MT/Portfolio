@@ -89,7 +89,7 @@
           Lorem, ipsum.
         </v-btn>
       </v-col>
-      <ShowMore :expand="showMore" />
+      <ShowMore />
     </v-responsive>
   </v-container>
 </template>
