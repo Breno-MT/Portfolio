@@ -19,7 +19,7 @@
       <v-row class="d-flex align-center justify-center">
         <v-col cols="auto">
           <v-btn
-            href="https://vuetifyjs.com/components/all/"
+            href="https://www.linkedin.com/in/breno-martins-95080a205/"
             min-width="164"
             rel="noopener noreferrer"
             target="_blank"
@@ -31,6 +31,24 @@
           </v-btn>
         </v-col>
 
+        <v-col cols="auto">
+          <v-btn
+            href="https://stackoverflow.com/users/17271257/breno"
+            min-width="164"
+            rel="noopener noreferrer"
+            target="_blank"
+            variant="text"
+          >
+            <v-icon
+              color="#f57d00"
+              icon="mdi-stack-overflow"
+              size="large"
+              start
+            />
+
+            Stack Overflow
+          </v-btn>
+        </v-col>
         <v-col cols="auto">
           <v-btn
             href="https://github.com/Breno-MT"
