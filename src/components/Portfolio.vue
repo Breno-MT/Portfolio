@@ -6,8 +6,10 @@
         src="https://avatars.githubusercontent.com/u/95316873?v=4"
       />
 
-      <div class="text-h4 font-weight-medium pb-4 pt-4">
-        Welcome to my Portfolio!
+      <div class="pb-4 pt-4">
+        <p class="text-h4 font-weight-light font-italic">
+          Welcome to my Portfolio!
+        </p>
       </div>
 
       <h1 class="text-h2 font-weight-bold">I'm Breno Martins!</h1>
@@ -88,5 +90,4 @@ const showMoreAboutMe = () => {
   });
   showMore.value = store.showMoreAboutMe;
 };
-
 </script>
