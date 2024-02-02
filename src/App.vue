@@ -12,6 +12,6 @@
 
 <style scoped>
 * {
-  background: rgb(211, 200, 203);
+  background: #d3c8cb;
 }
 </style>
