@@ -2,19 +2,19 @@
   <v-container class="fill-height">
     <v-responsive class="align-center text-center fill-height">
       <v-img
-        height="300"
+        height="250"
         src="https://avatars.githubusercontent.com/u/95316873?v=4"
       />
 
-      <div class="pb-4 pt-4">
-        <p class="text-h4 font-weight-light font-italic">
+      <div class="pb-1 pt-3">
+        <p class="text-h5 font-weight-light font-italic">
           Welcome to my Portfolio!
         </p>
       </div>
 
-      <h1 class="text-h2 font-weight-bold">I'm Breno Martins!</h1>
+      <h1 class="text-h4 font-weight-bold">I'm Breno Martins!</h1>
 
-      <div class="py-4" />
+      <div class="py-1" />
 
       <v-row class="d-flex align-center justify-center">
         <v-col cols="auto">
@@ -63,6 +63,10 @@
           </v-btn>
         </v-col>
       </v-row>
+
+      <div class="py-3" />
+      <AboutMe />
+
       <v-col cols="auto">
         <v-btn
           @click="showMoreAboutMe()"
@@ -86,7 +90,7 @@
             start
           />
 
-          Lorem, ipsum.
+          Projects
         </v-btn>
       </v-col>
       <ShowMore :expand="showMore" />
