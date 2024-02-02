@@ -9,3 +9,9 @@
 <script setup>
   //
 </script>
+
+<style scoped>
+* {
+  background: rgb(211, 200, 203);
+}
+</style>
