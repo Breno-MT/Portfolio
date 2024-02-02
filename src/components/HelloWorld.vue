@@ -88,9 +88,6 @@ const showMoreAboutMe = () => {
     state.valueShowMoreAboutMe = !showMore.value;
   });
   showMore.value = store.showMoreAboutMe;
-  console.log("changed: ", store.showMoreAboutMe);
-  console.log("changed not getters: ", showMore.value);
 };
 
-console.log("teste2: ", store.showMoreAboutMe);
 </script>
