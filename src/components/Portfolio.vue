@@ -6,7 +6,7 @@
         src="https://avatars.githubusercontent.com/u/95316873?v=4"
       />
 
-      <div class="text-body-2 font-weight-medium mb-n1">
+      <div class="text-h4 font-weight-medium pb-4 pt-4">
         Welcome to my Portfolio!
       </div>
 
