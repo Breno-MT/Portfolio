@@ -1,18 +1,26 @@
 <template>
   <div class="pb-6">
     <p class="text-h5 text-wrap font-weight-medium font-italic">
-      I'm a Software Developer from Brazil who loves studying, always learning
-      and is fascinated by the constant changes and room for improvement,
-      discovering new things in the field of Technology is a must.
+      I'm a Software Developer from Brazil who enjoys studying and is always up
+      for learning. I find the dynamic nature of technology exciting, constantly
+      seeking ways to improve and discovering new things in the field is a must
+      for me.
     </p>
   </div>
   <div class="pb-3 pt-3">
-    <p class="text-h5 text-wrap">I work with the following technologies (always open to more):</p>
+    <p class="text-h5 text-wrap">
+      I work with the following technologies (always open to more):
+    </p>
   </div>
   <div class="pb-3">
     <v-container>
       <v-row no-gutters>
-        <v-col color="primary" v-for="item in list_technologies" cols="12" sm="4">
+        <v-col
+          color="primary"
+          v-for="item in list_technologies"
+          cols="12"
+          sm="4"
+        >
           <v-list class="pa-0 ma-0 no-color-background">
             <img height="60" :src="item.icon" />
             <p>{{ item.title }}</p>
