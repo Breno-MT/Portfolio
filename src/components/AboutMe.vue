@@ -1,5 +1,5 @@
 <template>
-  <div class="pb-6">
+  <div class="pb-9">
     <p class="text-h5 text-wrap font-weight-medium font-italic">
       I'm a Software Developer from Brazil who enjoys studying and is always up
       for learning. I find the dynamic nature of technology exciting, constantly
@@ -7,9 +7,42 @@
       for me.
     </p>
   </div>
+  <div class="pb-5">
+    <p class="text-h5 text-wrap">Working Experiencies:</p>
+    <v-col class="shrink">
+      <v-card
+        class="mx-auto no-color-background"
+        plain
+        elevation="0"
+        max-width="500"
+      >
+        <v-list class="pa-0 ma-0 no-color-background">
+          <v-list-item v-for="(item, i) in list_jobs" :key="i">
+            <v-icon>mdi-desktop-classic</v-icon>
+            <v-list-item-title
+              v-text="item.name"
+              class="text-h5 font-weight-bold"
+            ></v-list-item-title>
+            <v-list-item-subtitle
+              v-text="item.date_worked"
+              class="font-weight-bold font-italic"
+            ></v-list-item-subtitle>
+            <v-list-item-subtitle
+              v-text="item.location"
+              class="font-weight-bold font-italic"
+            ></v-list-item-subtitle>
+            <br>
+            <p class="text-body-4 text-wrap font-weight-bold">
+              {{ item.job_description }}
+            </p>
+          </v-list-item>
+        </v-list>
+      </v-card>
+    </v-col>
+  </div>
   <div class="pb-3 pt-3">
     <p class="text-h5 text-wrap">
-      I work with the following technologies (always open to more):
+      Technologies that I use to work (always open to more):
     </p>
   </div>
   <div class="pb-3">
@@ -83,6 +116,22 @@ const list_technologies = ref([
   {
     title: "Docker",
     icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg",
+  },
+]);
+
+const list_jobs = ref([
+  {
+    name: "Conecta Nuvem",
+    date_worked: "From Dec 2022 - Dec 2023",
+    job_description:
+      "Improving and implementing the software based on Google Cloud Services, working as a Software Developer using Python, Flask, Pytest, Cloud Run, Docker on the Back End. On the Front End I used Vuetify, VueJs and Firebase hosting services (Google).",
+    location: "Remote",
+  },
+  {
+    name: "EEB INFORMÁTICA",
+    date_worked: "From Apr 2022 - Jun 2022",
+    job_description: "Desktop computer, laptop maintenance work.",
+    location: "On-site, Florianópolis SC",
   },
 ]);
 </script>
