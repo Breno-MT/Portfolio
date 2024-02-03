@@ -70,7 +70,7 @@
       <v-col cols="auto">
         <v-btn
           @click="showMoreAboutMe()"
-          color="primary"
+          color="#696465"
           min-width="228"
           rel="noopener noreferrer"
           size="x-large"
