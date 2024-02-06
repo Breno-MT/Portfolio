@@ -77,18 +77,8 @@
           target="_blank"
           variant="flat"
         >
-          <v-icon
-            v-if="showMore"
-            icon="mdi-arrow-collapse-down"
-            size="large"
-            start
-          />
-          <v-icon
-            v-if="!showMore"
-            icon="mdi-arrow-collapse-up"
-            size="large"
-            start
-          />
+          <v-icon v-if="!showMore">mdi-chevron-up</v-icon>
+          <v-icon v-else>mdi-chevron-down</v-icon>
 
           Projects
         </v-btn>
