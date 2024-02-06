@@ -77,8 +77,8 @@
           target="_blank"
           variant="flat"
         >
-          <v-icon v-if="!showMore">mdi-chevron-up</v-icon>
-          <v-icon v-else>mdi-chevron-down</v-icon>
+          <v-icon size="x-large" v-if="!showMore">mdi-chevron-up</v-icon>
+          <v-icon size="x-large" v-else>mdi-chevron-down</v-icon>
 
           Projects
         </v-btn>
